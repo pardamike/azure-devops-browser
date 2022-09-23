@@ -1,0 +1,19 @@
+.card {
+  all: unset;
+  border-radius: 0.25rem;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 2rem;
+  width: 10rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 1.5rem;
+}
+
+.child-margin {
+  margin-left: 4rem;
+}

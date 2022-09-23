@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  pat: 'n4nftphrvplvonekwiq2k4acmxsrnybbhbtk5lsodeor2vtvgstq',
+  apiBaseUrl: 'https://dev.azure.com/mikeparda',
+  apiVersion: 'api-version=6.0'
 };
 
 /*
