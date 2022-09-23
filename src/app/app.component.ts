@@ -21,7 +21,7 @@ export class AppComponent {
     });
   }
 
-  getWorkItems() {
+  getWorkItems(): void {
     this.devopsService.getWorkItemHierachy(this.projectId).subscribe((result) => {
       this.workItemHierarchy = result.workItemRelations;
     });

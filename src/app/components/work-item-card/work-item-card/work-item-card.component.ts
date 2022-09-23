@@ -18,7 +18,7 @@ export class WorkItemCardComponent implements OnInit {
 
   constructor(private devopsService: AzureDevopsService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.devopsService.getWorkItem(this.item.target.id).subscribe(result => {
       this.id = result.id;
       this.name = result.fields['System.Title'];

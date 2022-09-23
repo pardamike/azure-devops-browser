@@ -11,6 +11,7 @@ export class AuthInterceptor implements HttpInterceptor {
     const modifiedReq = req.clone({ 
       headers: req.headers.set('Authorization', `Basic ${window.btoa(dummyUser + ":" + environment.pat)}`),
     });
+
     return next.handle(modifiedReq);
   }
 }
