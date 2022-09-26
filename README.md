@@ -15,11 +15,8 @@ npm install
 
 ### Personal Access Token
 Place your Azure DevOps PAT in the proper environment file.  Replace the existing token with yours.
-```
-Local dev: https://github.com/pardamike/azure-devops-browser/blob/master/src/environments/environment.ts#L7
-
-Production: https://github.com/pardamike/azure-devops-browser/blob/master/src/environments/environment.prod.ts#L3
-```
+- Local dev: https://github.com/pardamike/azure-devops-browser/blob/master/src/environments/environment.ts#L7
+- Production: https://github.com/pardamike/azure-devops-browser/blob/master/src/environments/environment.prod.ts#L3
 
 ## Running the app
 
