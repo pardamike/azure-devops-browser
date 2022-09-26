@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  pat: 'n4nftphrvplvonekwiq2k4acmxsrnybbhbtk5lsodeor2vtvgstq',
+  pat: 'YOUR_TOKEN_HERE',
   apiBaseUrl: 'https://dev.azure.com/mikeparda',
   apiVersion: 'api-version=6.0'
 };
